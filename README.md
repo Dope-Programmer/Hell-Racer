@@ -161,7 +161,7 @@ With some of the key methods explained, this was the result:
 
 #### Speed boost: 
 
-##![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287)
+![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287)
 
 #### Small size boost: 
 
