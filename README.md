@@ -18,9 +18,10 @@ Manages the selection and application of a power-up to the player. This method c
 
 <details>
 <summary>Click to expand</summary>
-  
-    void UPowerUpManager::SwitchPU(EPowerUpTypes types)
-    {
+
+  ```cpp
+void UPowerUpManager::SwitchPU(EPowerUpTypes types)
+{
     TheCharacter = Cast<ACharacterInput>(GetOwner()); 
     PUWidget = TheCharacter->PowerUpUI; 
 
@@ -36,8 +37,8 @@ Manages the selection and application of a power-up to the player. This method c
     {
         PUWidget->ColorSymbols(types); 
     }
-    }
-
+}
+```
 </details>
 
 #### RandomPowerUp Method: 
@@ -47,9 +48,10 @@ Inspired by Mario Kart, our game uses a random selection system for power-ups to
 <details>
 <summary>Click to expand</summary>
 
-    EPowerUpTypes UPowerUpManager::RandomPowerUp()
-    {
-    TotalWeight = 0; 
+```cpp
+EPowerUpTypes UPowerUpManager::RandomPowerUp()
+{
+    TotalWeight = 0;
 
     for (int32 Weight : PowerUpWeights)
     {
@@ -69,8 +71,8 @@ Inspired by Mario Kart, our game uses a random selection system for power-ups to
     }
 
     return EPowerUpTypes::None; 
-    }
-
+}
+```
 </details>
 
 #### AddPowerUp Method:
@@ -79,8 +81,9 @@ This method adds a newly selected power-up to the player’s list if there is sp
 <details>
 <summary>Click to expand</summary>
 
-    void UPowerUpManager::AddPowerUp(EPowerUpTypes types)
-    {
+```cpp
+void UPowerUpManager::AddPowerUp(EPowerUpTypes types)
+{
     FString PowerUpName = PowerUpTypeToString(types);
 
     if (IsListFull)
@@ -90,7 +93,6 @@ This method adds a newly selected power-up to the player’s list if there is sp
 
     if (types == EPowerUpTypes::None || types >= EPowerUpTypes::Max_PU)
     {
-        UE_LOG(LogTemp, Error, TEXT("Invalid power-up type: %d"), static_cast<int32>(types));
         return;
     }
 
@@ -104,8 +106,8 @@ This method adds a newly selected power-up to the player’s list if there is sp
             break;
         }
     }
-    }
-
+}
+```
 </details>
 
 #### StartPU Method:
@@ -115,13 +117,13 @@ It activates the power-up that is currently selected in the player's list. Depen
 <details>
 <summary>Click to expand</summary>
 
-    void UPowerUpManager::StartPU()
-    {
+```cpp
+ void UPowerUpManager::StartPU()
+{
     ACharacter* OwnerCH = Cast<ACharacter>(GetOwner()); 
 
     if (!OwnerCH)
     {
-        UE_LOG(LogTemp, Error, TEXT("Owner character not found"));
         return;
     }
 
@@ -150,8 +152,8 @@ It activates the power-up that is currently selected in the player's list. Depen
         CheckPUList(); 
         break; 
     }
-    }
-
+}
+```
 </details>
 
 ### Result: 
