@@ -41,7 +41,7 @@ Manages the selection and application of a power-up to the player. This method c
 
 </details>
 
-### RandomPowerUp Method: 
+#### RandomPowerUp Method: 
 
 Since our game was mostly inspired my mario kart, we wanted a similar system with power-up:s with a random selection. In this method, it selects a power-up randomly based on weighted probabilities. This ensures that more common power-ups are selected more frequently, adding a dynamic and unpredictable element to gameplay.
 
@@ -74,7 +74,7 @@ Since our game was mostly inspired my mario kart, we wanted a similar system wit
 
 </details>
 
-### AddPowerUp Method:
+#### AddPowerUp Method:
 This method adds a newly selected power-up to the player’s list if there is space available. It also checks for any errors, such as invalid power-up types, and provides feedback via the Unreal Engine logging system.
 
 <details>
@@ -109,7 +109,7 @@ This method adds a newly selected power-up to the player’s list if there is sp
 
 </details>
 
-### StartPU Method:
+#### StartPU Method:
 
 It activates the power-up that is currently selected in the player's list. Depending on the type of power-up, it finds the appropriate component on the player character and applies the desired effect, such as speed boost or size reduction.
 
@@ -159,11 +159,11 @@ It activates the power-up that is currently selected in the player's list. Depen
 
 With some of the key methods explained, this was the result: 
 
-### Speed boost: 
+#### Speed boost: 
 
 ##![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287)
 
-### Small size boost: 
+#### Small size boost: 
 
 ![SmallSizePowerUp-gif](https://github.com/user-attachments/assets/1dba43e7-ed10-4d6a-b12c-4c66f1ceb3cd)
 
