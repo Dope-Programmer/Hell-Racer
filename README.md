@@ -1,6 +1,6 @@
 # Hell-Racer
 
- In an 8-week group project using Unreal Engine and C++, I worked with a team of talented graphic designers and programmers. My main role was to build the entire power-up system from scratch, using Enumerators to manage different types of power-ups. Due to time constraints, the game included only two power-ups, but I designed the system to make it easy to add more in the future. I also developed the user interface (UI) for the power-up system to create a smooth and intuitive experience for players.
+In an 8-week group project using Unreal Engine and C++, I worked with a team of talented graphic designers and programmers. My main role was to build the entire power-up system from scratch, using Enumerators to manage different types of power-ups. Due to time constraints, the game included only two power-ups, but I designed the system to make it easy to add more in the future. I also developed the user interface (UI) for the power-up system to create a smooth and intuitive experience for players. 
 
 ## Track overview
 ![track overview 1](https://github.com/user-attachments/assets/1693034f-9439-4b52-8ca0-78bac794050d)
@@ -8,8 +8,7 @@
 
 ## PowerManager
 A script I would like to show is my PowerUpManager script. The script in all is around 300 rows, so I have chosen some highlights.
-Purpose: It manages the relationship between the player, the power-ups, and the UI. This includes selecting, applying, and handling power-ups during gameplay.
-eller: The PowerUpManager class is the core component responsible for managing power-ups in the game. It handles the selection, storage, and activation of power-ups for the player while integrating seamlessly with the game's user interface (UI). The manager uses enumerators to differentiate between types of power-ups and applies weighted randomness to ensure a balanced distribution. 
+The PowerUpManager is a key part of the game that handles everything related to power-ups. It manages picking, storing, and activating power-ups for the player and keeps the game’s UI updated. It uses enumerators to define different power-up types and a weighted random system to make sure the power-ups are balanced.
 
 ### Key Methods: 
 
@@ -43,7 +42,7 @@ Manages the selection and application of a power-up to the player. This method c
 
 #### RandomPowerUp Method: 
 
-Since our game was mostly inspired my mario kart, we wanted a similar system with power-up:s with a random selection. In this method, it selects a power-up randomly based on weighted probabilities. This ensures that more common power-ups are selected more frequently, adding a dynamic and unpredictable element to gameplay.
+Since our game was mainly inspired my Mario Kart, we wanted a similar system with the power-up:s where there is a random selection. In this method, it selects a power-up randomly based on weighted probabilities. This ensures that more common power-ups are selected more frequently, adding a dynamic and unpredictable element to gameplay.
 
 <details>
 <summary>Click to expand</summary>
