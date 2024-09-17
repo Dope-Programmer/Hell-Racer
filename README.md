@@ -167,6 +167,6 @@ The player's speed is temporarily increased, indicated by the flames behind the 
 
 #### Small size boost: 
 
-The player character shrinks, allowing them to navigate through tighter spaces.”
+The player character shrinks, allowing them to navigate through tighter spaces.
 
 ![SmallSizePowerUp-gif](https://github.com/user-attachments/assets/1dba43e7-ed10-4d6a-b12c-4c66f1ceb3cd) ![SmallSizePowerUp2-gif2](https://github.com/user-attachments/assets/efb156c4-4749-462f-8721-d80e90be95c3)
