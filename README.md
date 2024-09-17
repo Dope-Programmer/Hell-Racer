@@ -42,7 +42,7 @@ Manages the selection and application of a power-up to the player. This method c
 
 #### RandomPowerUp Method: 
 
-Since our game was mainly inspired my Mario Kart, we wanted a similar system with the power-up:s where there is a random selection. In this method, it selects a power-up randomly based on weighted probabilities. This ensures that more common power-ups are selected more frequently, adding a dynamic and unpredictable element to gameplay.
+Inspired by Mario Kart, our game uses a random selection system for power-ups to add unpredictability to gameplay. In this method, it selects a power-up randomly based on weighted probabilities. This ensures that more common power-ups are selected more frequently, adding a dynamic and unpredictable element to gameplay.
 
 <details>
 <summary>Click to expand</summary>
@@ -154,15 +154,19 @@ It activates the power-up that is currently selected in the player's list. Depen
 
 </details>
 
-## Result: 
+### Result: 
 
 With some of the key methods explained, this was the result: 
 
 #### Speed boost: 
 
-![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287)
+The player's speed is temporarily increased, indicated by the flames behind the car. 
+
+![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287) ![SpeedBoostpowerUp2-gif2](https://github.com/user-attachments/assets/4b2796dd-927e-46dd-aab9-09664f1623b0)
+
 
 #### Small size boost: 
 
-![SmallSizePowerUp-gif](https://github.com/user-attachments/assets/1dba43e7-ed10-4d6a-b12c-4c66f1ceb3cd)
+The player character shrinks, allowing them to navigate through tighter spaces.”
 
+![SmallSizePowerUp-gif](https://github.com/user-attachments/assets/1dba43e7-ed10-4d6a-b12c-4c66f1ceb3cd) ![SmallSizePowerUp2-gif2](https://github.com/user-attachments/assets/efb156c4-4749-462f-8721-d80e90be95c3)
