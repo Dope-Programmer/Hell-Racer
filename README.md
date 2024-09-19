@@ -5,7 +5,7 @@ In an 8-week group project using Unreal Engine and C++, I worked with a team of 
 ## Track overview
 ![track overview 1](https://github.com/user-attachments/assets/1693034f-9439-4b52-8ca0-78bac794050d)
 
-## PowerManager
+## PowerUpManager
 A script I would like to show is my PowerUpManager script. The script in all is around 300 rows, so I have chosen some highlights.
 The PowerUpManager is a key part of the game that handles everything related to power-ups. It manages picking, storing, and activating power-ups for the player and keeps the game’s UI updated. It uses enumerators to define different power-up types and a weighted random system to make sure the power-ups are balanced.
 
