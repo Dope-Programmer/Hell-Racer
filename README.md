@@ -4,7 +4,6 @@ In an 8-week group project using Unreal Engine and C++, I worked with a team of 
 
 ## Track overview
 ![track overview 1](https://github.com/user-attachments/assets/1693034f-9439-4b52-8ca0-78bac794050d)
-![track overview 2](https://github.com/user-attachments/assets/282c0365-1d73-41e5-b4f3-c39252a6035d)
 
 ## PowerManager
 A script I would like to show is my PowerUpManager script. The script in all is around 300 rows, so I have chosen some highlights.
