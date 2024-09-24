@@ -3,10 +3,9 @@
 In an 8-week group project using Unreal Engine and C++, I worked with a team of talented graphic designers and programmers. My main role was to build the entire power-up system from scratch, using Enumerators to manage different types of power-ups. Due to time constraints, the game included only two power-ups, but I designed the system to make it easy to add more in the future. I also developed the user interface (UI) for the power-up system to create a smooth and intuitive experience for players. 
 
 ## Track overview
-![track overview 1](https://github.com/user-attachments/assets/1693034f-9439-4b52-8ca0-78bac794050d)
-![Hell racer omslag 2](https://github.com/user-attachments/assets/5204b5cc-27d2-4166-9834-42b00efbf463)
 
-
+![track overview-2](https://github.com/user-attachments/assets/11d1b639-9859-4491-8407-fa128797a9d2)
+![Hell racer omslag 3-](https://github.com/user-attachments/assets/faddf628-5bb0-4ba1-a928-4288740bcc84)
 
 ## PowerUpManager
 A script I would like to show is my PowerUpManager script. The script in all is around 300 rows, so I have chosen some highlights.
