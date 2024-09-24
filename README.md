@@ -165,11 +165,10 @@ With some of the key methods explained, this was the result:
 
 The player's speed is temporarily increased, indicated by the flames behind the car. 
 
-![SpeedBoostPowerUp-gif](https://github.com/user-attachments/assets/35a4a46d-6ca1-433f-8cf7-2d0ed4a25287) ![SpeedBoostpowerUp2-gif2](https://github.com/user-attachments/assets/4b2796dd-927e-46dd-aab9-09664f1623b0)
-
+![SpeedBoostpowerUp2-gif2](https://github.com/user-attachments/assets/4b2796dd-927e-46dd-aab9-09664f1623b0)
 
 #### Small size boost: 
 
 The player character shrinks, allowing them to navigate through tighter spaces.
 
-![SmallSizePowerUp-gif](https://github.com/user-attachments/assets/1dba43e7-ed10-4d6a-b12c-4c66f1ceb3cd) ![SmallSizePowerUp2-gif2](https://github.com/user-attachments/assets/efb156c4-4749-462f-8721-d80e90be95c3)
+![SmallSizePowerUp2-gif2](https://github.com/user-attachments/assets/efb156c4-4749-462f-8721-d80e90be95c3)
