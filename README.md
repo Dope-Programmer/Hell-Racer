@@ -34,7 +34,7 @@ A script I would like to show is my PowerUpManager script. The script in all is 
 
 ### Role
 
-The PowerUpManager is a key part of the game that handles everything related to power-ups. It manages picking, storing, and activating power-ups for the player and keeps the game’s UI updated. It uses enumerators to define different power-up types and a weighted random system to make sure the power-ups are balanced.
+The PowerUpManager is a key part of the game, a component in the player, that handles everything related to power-ups. It manages picking, storing, and activating power-ups for the player and keeps the game’s UI updated. It uses enumerators to define different power-up types and a weighted random system to make sure the power-ups are balanced.
 
 ### Key Methods: 
 
