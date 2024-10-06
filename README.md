@@ -32,14 +32,11 @@ The player character shrinks, allowing them to navigate through tighter spaces.
 ## PowerUpManager
 A script I would like to show is my PowerUpManager script. The script in all is around 300 rows, so I have chosen some highlights.
 
-### Role
-
+### Role:
 The PowerUpManager is a key part of the game, a component in the player, that handles everything related to power-ups. It manages picking, storing, and activating power-ups for the player and keeps the game’s UI updated. It uses enumerators to define different power-up types and a weighted random system to make sure the power-ups are balanced.
 
 ### Key Methods: 
-
 #### SwitchPowerUp Method: 
-
 When the player picks up a power up, it first leads to this function which manages the selection and application of a power-up to the player. This method checks the current state of power-up storage, selects a new power-up based on weighted randomness, and updates the UI accordingly.
 
   ```cpp
