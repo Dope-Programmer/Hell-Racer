@@ -125,12 +125,12 @@ void UPowerUpManager::AddPowerUp(EPowerUpTypes types)
 }
 ```
 
-#### StartPU Method:
+#### StartPowerUp Method:
 
 It activates the power-up that is currently selected in the player's list. Depending on the type of power-up, it finds the appropriate component on the player character and applies the desired effect, such as speed boost or size reduction.
 
 ```cpp
- void UPowerUpManager::StartPU()
+ void UPowerUpManager::StartPowerUp()
 {
     ACharacter* OwnerCH = Cast<ACharacter>(GetOwner()); 
 
