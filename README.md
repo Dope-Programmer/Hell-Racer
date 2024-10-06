@@ -13,7 +13,7 @@ My main role was to build the entire power-up system from scratch, using Enumera
 
 ## Result: 
 
-With some of the key methods explained, this was the result: 
+This was the result: 
 
 #### Speed boost: 
 
